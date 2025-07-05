@@ -148,6 +148,7 @@ li{
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 .item a:hover{padding: 5px;
