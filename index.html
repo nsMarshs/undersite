@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undertfolio | Home</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="arquivos/imgs/alma.png" type="image/png">
+</head>
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <h1 class="titulo">Undertfolio</h1>
+      <nav>
+        <ul> <!--paginas do site-->
+            <li class="opcao item"><a href="sobre.html">SOBRE MIM</a></li>
+            <li class="opcao item"><a href="formacao.html">FORMAÇÃO</a></li>
+            <li class="opcao item"><a href="portfolio.html">PORTFOLIO</a></li>
+            <li class="opcao item"><a href="contato.html">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+  <nav class="menuhome"> <!--Menu esquerdo para alguns links e outras coisas-->
+    <h2>LINKS</h2>
+    <p><a class="efeitoamarelo" href="https://undertale.fandom.com/wiki/Main_Page">Undertale Wiki</a></p>
+    <p><a class="efeitoamarelo" href="https://store.steampowered.com/app/391540/Undertale/">Página na Steam</a></p>
+  </nav>
+  <main class="main"> <!--Conteudo da pagina-->
+    <h1>Aviso</h1>
+    <p>Este site foi feito como teste e reaproveitado para uma atividade. Não tenho muitas habilidades com HTML e CSS no momento, então talvez tenham erros aqui e ali por mais que eu tenha tentado evitar a maioria deles. O visual é baseado no jogo <a class="efeitoamarelo" href="https://undertale.com">Undertale</a>.</p>
+    <p>O jogo tem um visual bem simples, e como eu quis ser fiel a isso acabei fazendo o site simples também. Tentei deixar interessante da forma que está ao meu alcance hoje, com alguns efeitinhos legais aqui e ali como com os links, os sons e as páginas em baixo do título. </p>
+    <p>Eu queria que as páginas desse site tocassem músicas do jogo, mas para não ser invasivo resolvi deixar opcional. Dá para iniciar e parar tocando no cachorro!</p>
+    <p>A música para ao trocar de página, e para resolver isso eu teria que usar SPA (e eu não entendo nada disso atualmente). Então em cada página o usuario teria que ativar manualmente a música. Por conta disso, coloquei uma música diferente em cada página.</p>
+  </main>
+  <img src="arquivos/imgs/annoyingdogrope.gif" class="dogif" onclick="alternarMusica()" style="cursor: pointer;">
+  </div>
+
+<div> <!--div para os audios-->
+  <audio id="musica" loop src="arquivos/msc/undertalemenu.mp3" type="audio/mp3"></audio>
+  <audio id="som-select" src="arquivos/msc/select.wav" preload="auto"></audio>
+  <audio id="som-menu" src="arquivos/msc/snd_squeak.wav" preload="auto"></audio>
+</div>
+<script src="script.js"></script>
+<footer class="rodape"><p>© 2025 Davi dos Santos. Este site é um projeto não oficial inspirado em <a class="efeitoamarelo" href="https://undertale.com">Undertale.</a> Todos os direitos sobre a franquia pertencem a Toby Fox.
+</p>
+</footer>
+</body>
+</html>

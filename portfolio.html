@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="arquivos/imgs/alma.png" type="image/png">
+    <title>UnderPortfolio</title>
+</head>
+<body>
+    <div class="grid-container">
+    <header class="header">
+      <h1 class="titulo">Undertfolio</h1>
+      <nav>
+        <ul> <!--paginas do site-->
+            <li class="opcao item"><a href="sobre.html">SOBRE MIM</a></li>
+            <li class="opcao item"><a href="formacao.html">FORMAÇÃO</a></li>
+            <li class="opcao item"><a href="portfolio.html">PORTFOLIO</a></li>
+            <li class="opcao item"><a href="contato.html">CONTATO</a></li>
+        </ul>
+      </nav>
+    </header>
+  <nav class="menu"> <!--Menu esquerdo para alguns links e outras coisas-->
+    <h2>MENU</h2>
+    <p class="retornar opcao"><a href="index.html">HOME</a></p>
+    <br>
+    <p class="retornar opcao"><a id="botao-voltar">RETORNAR</a></p>
+    <p>▁▁▁▁▁▁▁▁▁</p>
+    <h2>LINKS</h2>
+    <p><a class="efeitoamarelo" href="https://undertale.fandom.com/wiki/Main_Page">Undertale Wiki</a></p>
+  </nav>
+  <main class="main"> <!--Conteudo da pagina-->
+    <h1>Meu portfólio</h1>
+    <p>Essa seção vai ser bem vaga, já que meu portfólio AINDA não é muito rico. Acredito que no momento, o item mais interessante para entrar na lista de coisas que já fiz seria justamente esse site. <img src="arquivos/imgs/dog1.png" class="grid-container dog"></p>
+  </main>
+  <img src="arquivos/imgs/annoyingdogrope.gif" class="dogif" onclick="alternarMusica()" style="cursor: pointer;">
+  </div>
+
+<div> <!--div para os audios-->
+  <audio id="musica" loop src="arquivos/msc/021. Dogsong (UNDERTALE Soundtrack) - Toby Fox.m4a" type="audio/mp3"></audio>
+  <audio id="som-select" src="arquivos/msc/select.wav" preload="auto"></audio>
+  <audio id="som-menu" src="arquivos/msc/snd_squeak.wav" preload="auto"></audio>
+</div>
+<script src="script.js"></script>
+<footer class="rodape"><p>© 2025 Davi dos Santos. Este site é um projeto não oficial inspirado em <a class="efeitoamarelo" href="https://undertale.com">Undertale.</a> Todos os direitos sobre a franquia pertencem a Toby Fox.
+</p>
+</footer>
+</body>
+</html>
